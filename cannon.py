@@ -21,8 +21,9 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-        speed.x = (x + 200) / 25
-        speed.y = (y + 200) / 25
+        speed.x = (x + 1000) / 25
+        speed.y = (y + 1000) / 25
+        #Se modificó el número que suma a x o y para hacer más rápido el tiro.
 
 
 def inside(xy):
